@@ -1,0 +1,18 @@
+.first{
+    grid-area: first;
+}
+
+.second{
+    grid-area: second;
+}
+
+.third{
+    grid-area: third;
+}
+
+.deals>div{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "first third"
+                         "second third";
+}
