@@ -61,6 +61,7 @@
     .deals{
 
         .third{
+            max-width:367px;
             height: 200px;
         }
         grid-template-areas: "first"
@@ -80,6 +81,10 @@
     .search button{
         padding-right:7px;
         padding-left:7px;
+    }
+
+    footer{
+        padding-top: 50px;
     }
 
     .footer-parent div{
