@@ -42,6 +42,15 @@
                          justify-content: center; 
 }
 
+button:hover{
+    background-color: black;
+    transition: all ease-in .1s;
+}
+
+nav a:hover{
+    color: red;
+}
+
 
 /* responsive design */
 
