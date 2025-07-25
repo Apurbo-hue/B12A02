@@ -25,11 +25,11 @@
             </div>
 
             <div>
-                <ul class="flex gap-12">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>Cart($56)</a></li>
+                <ul class="navli flex gap-12">
+                    <li class="mobile-res"><a href="#">Home</a></li>
+                    <li class="mobile-res"><a href="#">Shop</a></li>
+                    <li class="mobile-res"><a href="#">About us</a></li>
+                    <li class="cart"><a href="#"><i class="fa-solid fa-cart-shopping"></i>Cart($56)</a></li>
                 </ul>
             </div>
         </nav>
@@ -40,7 +40,7 @@
 
             <div class="banner-txt max-w-[570px] ">
                 <h1 class="text-6xl font-bold">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
-                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                <p class="text-black/50">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
                     exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
             <div class="banner-img">
@@ -162,7 +162,7 @@
         <section class="deals max-w-[1440px] mb-[121px] mx-auto text-white">
 
 
-               <div class="first rounded-[12px] relative w-[367px] h-[200px] border bg-cover bg-center bg-no-repeat" style="background-image: url('./assets/deal-ana.png');">
+               <div class="first rounded-[12px] relative max-w-[367px] h-[200px] border bg-cover bg-center bg-no-repeat" style="background-image: url('./assets/deal-ana.png');">
 
                      <div class="absolute rounded-[12px] inset-0 bg-black/50"></div>
                      <div class="absolute inset-0 flex items-center justify-center">
@@ -179,7 +179,7 @@
                      </div>
                </div>
 
-                <div class="third rounded-[12px] relative w-[753px] h-[423px] border bg-cover bg-center" style="background-image: url('./assets/deal-zabo.png');">
+                <div class="third rounded-[12px] relative max-w-[753px] h-[423px] border bg-cover bg-center" style="background-image: url('./assets/deal-zabo.png');">
                      <div class="absolute rounded-[12px] inset-0 bg-black/50"></div>
                      <div class="absolute inset-0 flex items-center justify-center">
                         <h1>30% off | Bloom Plant</h1>
@@ -213,7 +213,7 @@
 
     <!--footer start-->
     <footer>
-        <div class="flex justify-between max-w-[1440px] mx-auto items-center h-[348px]">
+        <div class="footer-parent flex flex-col lg:flex-row items-start lg:items-center justify-between max-w-[1440px] mx-auto h-[348px] pl-6 lg:pl-0">
             <div>
                 <img src="./assets/logo.png" alt="failed to load">
                 <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
@@ -236,7 +236,7 @@
                     <li><a href="#">Help Center</a></li>
                 </ul>
             </div>
-            <div class="flex flex-rows  items-center gap-4">
+            <div class="flex flex-rows  items-center gap-6">
                 <figure><img src="./assets/icon-linkedin.png" alt="failed to load"></figure>
                 <figure><img src="./assets/icon-twitter.png" alt="failed to load"></figure>
                 <figure><img src="./assets/icon-facebook.png" alt="failed to load"></figure>

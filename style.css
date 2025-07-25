@@ -21,6 +21,22 @@
 
 @media screen and (max-width:576px){
 
+    nav{
+        margin:60px 16px;
+    }
+
+    nav img{
+        width: 80px;
+    }
+
+    .mobile-res{
+        display: none;
+    }
+
+    .cart{
+        font-size: 25px;
+    }
+
     .banner{
         flex-direction: column-reverse;
     }
@@ -41,4 +57,38 @@
         width: 95%;
         margin: auto;
     }
+
+    .deals{
+
+        .third{
+            height: 200px;
+        }
+        grid-template-areas: "first"
+                              "second"
+                              "third";
+    }
+
+    .search h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .search input{
+            padding-right: 40px;
+    }
+
+    .search button{
+        padding-right:7px;
+        padding-left:7px;
+    }
+
+    .footer-parent div{
+        margin: 0;
+    }
+
+    .footer-parent{
+        flex-direction: column;
+        margin: 0;
+    }
 }
+    
