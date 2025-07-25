@@ -43,14 +43,13 @@
 }
 
 button:hover{
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.5);;
     transition: all ease-in .1s;
 }
 
-nav a:hover{
+nav a:hover,footer a:hover{
     color: red;
 }
-
 
 /* responsive design */
 
@@ -98,6 +97,7 @@ nav a:hover{
     /* items style */
     .items{
         grid-template-columns: repeat(2,1fr);
+        margin-bottom: 40px;
     }
 
     /* store seciton style */
